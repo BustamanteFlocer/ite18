@@ -8,7 +8,8 @@
         <meta name="author" content="" />
         <title>ScrapCycle</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
-        <!-- Bootstrap icons-->
+
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->
@@ -184,40 +185,243 @@
                     </div>
                     <div class="col-sm-8 col-md-6">
                         <div class="px-8 px-sm-0"><img class="img-fluid rounded-circle" src="assets/img/recyclable.jpg" /></div>
-
-
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Call to action section-->
-        <section class="cta">
-            <div class="cta-content">
-                <div class="container px-5">
-                    <h2 class="text-white display-1 lh-1 mb-4">
-                        Turn your trash
-                        <br />
-                        into cash.
-                    </h2>
-                    <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age" target="_blank">Download for free</a>
-                </div>
+   <!-- App badge section-->
+   <section class="bg-gradient-primary-to-secondary" id="download">
+    <div class="container px-5">
+        <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
+        <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
+            <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
+            <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
+        </div>
+    </div>
+</section>
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="text-center section-title font-alt mb-4">
+                <h1 class="font-alt">Gallery</h1>
             </div>
-        </section>
-        <!-- App badge section-->
-        <section class="bg-gradient-primary-to-secondary" id="download">
-            <div class="container px-5">
-                <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
-                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
-                    <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
-                    <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
-                </div>
+          <div class="row g-0" data-aos="fade-left">
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
+                  <img src="assets/img/gallery/m1.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
             </div>
-        </section>
-        <!-- Footer-->
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+                <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
+                  <img src="assets/img/gallery/a2.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
+                  <img src="assets/img/gallery/j1.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+                <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox">
+                  <img src="assets/img/gallery/p3.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox">
+                  <img src="assets/img/gallery/p6.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+                <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox">
+                  <img src="assets/img/gallery/h1.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox">
+                  <img src="assets/img/gallery/l5.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+                <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox">
+                  <img src="assets/img/gallery/p9.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- End Gallery Section -->
+
+
+    <!-- ======= Advanced Featuress Section ======= -->
+
+        <section id="advanced-features">
+            <div class="text-center section-title font-alt mb-4">
+                <h1 class="font-alt">News and Events</h1>
+            </div>
+        <div class="features-row section-bg" data-aos="fade-up">
+
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img class="advanced-feature-img-right wow fadeInRight" src="assets/img/k1.jpg" alt="">
+                <div>
+                  <h2>ScrapCycle Won the Gold Prize in START Hackathon 2022</h2>
+
+                  <p>ScrapCycle emerged as Innovation Champions in the first ever Hackathon event of the Smart and Creative Communities (SCC) Program by the Development Academy of the Philippines (DAP), which was held last September 13, 2022, at DAP Conference Center in Tagaytay. </p>
+                  <p>Out of 58 teams that joined the START Hackathon, only 10 has made it to the final round and the Mindanao's sole contenter, the ScrapCycle team comprises Genevieve P. Navales, Lavranz R. Tradio and Ydmundi S. Perez with their mentor Melbert R. Bonotan, won the 1st place. ScrapCycle will receive a cash prize of Php 50,000 and Php 100,000 seed funding from DAP through its government-funded "Smart and Creative Communities (SCC) Program" for R&D and pilot testing. The ScrapCycle mobile application will be adopted in Sta. Rosa Laguna, a partner LGU of DAP- Center for Strategic Futures.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="features-row" data-aos="fade-up">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img class="advanced-feature-img-left" src="assets/img/k2.jpg" alt="">
+                <div>
+                  <h2>ScrapCycle Bags Gold in the TECHPreneurs Startup Business Grant 2022 </h2>
+
+                  <p>       Students from Caraga State University won the top prize in the TECHPreneurs Startup Business Grant of the Butuan City SK Federation and City Youth in Development Office in collaboration with Father Saturnino Urios University and DTI-ADN, which was held last December 9, 2022 at Grand Palace Hotel, Butuan City.</p>
+
+                  <p>       CSU's team, called ScrapCycle, comprises BS Computer Science seniors Genevieve Navales, Ydmundi Perez, Hayacinth Jimenez, Rhea Mintuda, and Leo Alegre will receive a cash prize of Php 50,000 to help propel their startup forward and scale further.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="features-row section-bg" data-aos="fade-up">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img class="advanced-feature-img-right wow fadeInRight" src="assets/img/o1.jpg" alt="">
+                <div>
+                  <h2> ScrapCycle to represent Caraga Region at the 7th Philippine Startup Challenge </h2>
+
+                  <p>Scrapcycle of Caraga State University - Main Campus dominated DICT Caraga's Regional Pitching Competition (RPC) held at the HERO Learning Commons Auditorium, Caraga State University, Butuan City, on Friday, October 28.</p>
+                  <p>Scrapcyle will represent Caraga Region and compete for the Philippine Startup Challenge 7 on November 2022. Through these programs, DICT Caraga continues to push for more ICT-based solutions in the region.</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- End Advanced Featuress Section -->
+
+    <!-- ======= Call To Action Section ======= -->
+    <section id="call-to-action">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 text-center text-lg-start">
+              <h3 class="font-alt cta-title">Turn your trash into cash!</h3>
+              <p class="font-alt cta-text"> Let's start your recycling journey with ScrapCycle.</p>
+            </div>
+            <div class="col-lg-3 cta-btn-container text-center">
+              <a class="font-alt cta-btn align-middle" href="#">Download Now</a>
+            </div>
+          </div>
+
+        </div>
+      </section><!-- End Call To Action Section -->
+
+         <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="text-center section-title font-alt mb-4">
+            <h1 class="font-alt">Contact Us</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="info-box mb-4">
+                <i class="bi bi-geo-alt icon-feature text-gradient"></i>
+                <h3 class="font-alt">Our Address</h3>
+                <p class="font-alt">KM 7 NH1, Butuan City, 8600</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="info-box  mb-4">
+                <i class="bi bi-envelope icon-feature text-gradient"></i>
+                <h3 class="font-alt">Email Us</h3>
+                <p class="font-alt">scrapcycle@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="info-box  mb-4">
+
+                <i class="bi bi-telephone icon-feature text-gradient"></i>
+                <h3 class="font-alt">Call Us</h3>
+                <p class="font-alt">09482440776</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-6 ">
+              <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7882.314027503392!2d125.597139528329!3d8.95767589435299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301eac565a4abe5%3A0x87859279e2e3f66a!2sCaraga%20State%20University!5e0!3m2!1sen!2sph!4v1675290854470!5m2!1sen!2sph" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+            </div>
+
+            <div class="col-lg-6">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message font-alt">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="font-alt text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- End Contact Section -->
+ <!-- Footer-->
         <footer class="bg-black text-center py-5">
             <div class="container px-5">
                 <div class="text-white-50 small">
-                    <div class="mb-2">&copy; ScrapCycle 2023. All Rights Reserved.</div>
+                    <div class="mb-2">&copy; ScrapCycle 2022. All Rights Reserved.</div>
                     <a href="#!">Privacy</a>
                     <span class="mx-1">&middot;</span>
                     <a href="#!">Terms</a>
@@ -226,6 +430,8 @@
                 </div>
             </div>
         </footer>
+
+
         <!-- Feedback Modal-->
         <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">

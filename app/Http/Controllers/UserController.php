@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Validation\Rules;
+use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
@@ -15,10 +17,19 @@ class UserController extends Controller
     public function index()
     {
 
-        return view('users',[
+        return view('users.users',[
             'header'=> 'Users Management',
             'users' => User::all()
         ]);
+    }
+
+    public function form()
+    {
+
+        return view('users.form', [
+            'header'=> 'Add User',
+        ]);
+
     }
 
     /**
@@ -29,7 +40,20 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:'.User::class],
+            'password' => ['required', Rules\Password::defaults()],
+        ]);
+
+        User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+            ]);
+
+            session()->flash('status', 'Added User Successfully!');
+            return redirect('/users');
     }
 
     /**
@@ -40,7 +64,12 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        //
+        $user = User::find($id);
+
+        return view('users.form', [
+            'header' => 'Update User',
+            'user'   => $user
+        ]);
     }
 
     /**
@@ -52,7 +81,17 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:'.User::class],
+            'password' => [Rules\Password::defaults()],
+        ]);
+
+        $user = User::find($id);
+        $user->update($request->all());
+
+        session()->flash('status', 'Updated User Successfully!');
+        return redirect('/users/update/' . $user->id);
     }
 
     /**
