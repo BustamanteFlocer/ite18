@@ -89,6 +89,63 @@
                 </div>
             </div>
         </header>
+
+        <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
+              <img src="assets/img/aboutus.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+              <h3 class="font-alt">About Us</h3>
+              <p>
+                ScrapCycle is an online junkshop application where people can trade their recyclables (plastic, glass, metals, electronics, etc.) for money.
+              </p>
+              <p>
+                With the involvement of the local community, business sector, and local government, we see the opportunity to increase the recycling rate and improve waste management in the community to ensure that waste materials like plastic are properly segregated, collected, and given new life. </p>
+              <p>
+                We aim to increase the quantity of recyclable scraps turned into new products by recycling factories, reduce waste in the landfills and the oceans, promote responsible waste management, and to protect our planet.    </p>
+            </div>
+          </div>
+
+        </div>
+      </section><!-- End About Section -->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/k1.jpg" class="rounded mx-auto d-block " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/k2.jpg" class="rounded mx-auto d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/o1.jpg" class="rounded mx-auto d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block"
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
         <!-- Quote/testimonial aside-->
         <aside class="text-center bg-gradient-primary-to-secondary">
             <div class="container px-5">
@@ -328,7 +385,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div
         </div>
       </section><!-- End Advanced Featuress Section -->
 
